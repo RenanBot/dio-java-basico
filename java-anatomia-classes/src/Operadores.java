@@ -1,4 +1,3 @@
-import javax.sound.midi.Synthesizer;
 
 public class Operadores {
     public static void main(String[] args) {
@@ -8,9 +7,9 @@ public class Operadores {
         boolean variavel = true;
         variavel = !variavel;
 
-        System.out.println(variavel);*/
+        System.out.println(variavel);
 
-        //Operador Ternário
+        Operador Ternário
 
         int a , b;
         a = 5; 
@@ -18,7 +17,21 @@ public class Operadores {
 
         String resultado = a==b ?"Verdadeiro" : "Falso";
 
-        System.out.println(resultado);
+        System.out.println(resultado);*/
+
+        //Para comparar Objetos usa o equals
+
+        String nomeUm = "Renan";
+        String nomeDois = new String("Renan");
+        System.out.println(nomeUm.equals(nomeDois));
+
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        if(condicao1 || condicao2){
+            System.out.println("AS duas condições são verdadeiras");
+        }
+
     }
     
 }
