@@ -1,19 +1,19 @@
 public class Quadrilatero {
 
-    public static void area(double lado){
+    public static double area(double lado){
 
-        System.out.println("A Área do quadrado: " + lado * lado);
-
+        // aqui se fosse void System.out.println("A Área do quadrado: " + lado * lado);
+         return lado * lado;
     }
-    public static void area(double lado1, double lado2){
+    public static double area(double lado1, double lado2){
 
-        System.out.println("A Área do retângulo: " + lado1 * lado2);
-        
+        // aqui se fosse void System.out.println("A Área do retângulo: " + lado1 * lado2);
+        return lado1 * lado2;
     }
-    public static void area(double baseMaior, double baseMenor, double altura){
+    public static double area(double baseMaior, double baseMenor, double altura){
 
-        System.out.println("A Área do Trapézio: " + ((baseMaior + baseMenor) * altura) / 2);
-    
+        // aqui se fosse void System.out.println("A Área do Trapézio: " + ((baseMaior + baseMenor) * altura) / 2);
+        return ((baseMaior + baseMenor) * altura) / 2;
     }
 
     public static void area(float diagonal1, float diagonal2){
