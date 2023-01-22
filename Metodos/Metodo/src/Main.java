@@ -13,6 +13,11 @@ public class Main {
         Mensagem.obterMensagem(9);
         Mensagem.obterMensagem(14);
         Mensagem.obterMensagem(1);
-         
+
+        //Emprestimo
+
+        Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
+        Emprestimo.calcular(1000, Emprestimo.getTresParcelas()); 
+        Emprestimo.calcular(1000, 5);
     }
 }
