@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
@@ -66,8 +65,22 @@ public class ExemploList {
 
         System.out.println("Remova as notas menores do que 7 e exiba a lista: ");        
 
-        notas.iterator();
+        Iterator<Double> iterator1 = notas.iterator();
 
+        while(iterator1.hasNext()){
+           Double next = iterator1.next();
+           if(next < 7 ) {
+            iterator1.remove();
+           }
+        }
+        System.out.println(notas.toString());
+
+        System.out.println("Apague toda a lista: ");
+        notas.clear();
+
+        System.out.println(notas);
+
+        System.out.println("Confira se a lista está vazia: " + notas.isEmpty());
 
 
         
