@@ -35,6 +35,13 @@ public class OrdenacaoList {
         meusGatos.sort(new ComparetorCor());
 
         System.out.println(meusGatos);
+
+        System.out.println("Ordenar por nome/Cor/Idade");
+
+        //Collections.sort(meusGatos, new ComparetorNomeCorIdade());
+        meusGatos.sort(new ComparatorNomeCorIdade());
+
+        System.out.println(meusGatos);
     }
 }
 
@@ -85,6 +92,21 @@ class ComparetorCor implements Comparator<Gato> {
     @Override
     public int compare(Gato g1, Gato g2) {
         return g1.getCor().compareToIgnoreCase(g2.getCor());
+    }
+    
+}
+
+class ComparatorNomeCorIdade implements Comparator<Gato>{
+
+    @Override
+    public int compare(Gato g1, Gato g2) {
+        int nome = g1.getNome().compareToIgnoreCase(g2.getNome());
+        if(nome!= 0)return nome;
+
+        int cor = g1.getCor().compareToIgnoreCase(g2.getCor());
+        if(cor != 0) return cor;
+        
+        return Integer.compare(g1.getIdade(), g2.getIdade());
     }
     
 }
