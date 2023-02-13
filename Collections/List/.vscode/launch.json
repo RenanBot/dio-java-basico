@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InterfaceSet",
+            "request": "launch",
+            "mainClass": "InterfaceSet",
+            "projectName": "List_3ebcf9ba"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercicioTemperatura",
+            "request": "launch",
+            "mainClass": "ExercicioTemperatura",
+            "projectName": "List_3ebcf9ba"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
