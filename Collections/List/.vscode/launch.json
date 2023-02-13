@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OrdenacaoSet",
+            "request": "launch",
+            "mainClass": "OrdenacaoSet",
+            "projectName": "List_3ebcf9ba"
+        },
+        {
+            "type": "java",
             "name": "Launch InterfaceSet",
             "request": "launch",
             "mainClass": "InterfaceSet",
