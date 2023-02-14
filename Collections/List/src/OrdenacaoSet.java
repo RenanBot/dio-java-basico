@@ -20,7 +20,7 @@ public class OrdenacaoSet {
        Set<Serie> minhasSeries = new HashSet<>(){{
         add(new Serie("got", "Fantasia", 60));
         add(new Serie("dark", "Drama", 60));
-        add(new Serie("that '70s show'", "Comedia",     25));
+        add(new Serie("that '70s show'", "Comedia", 25));
        }};
 
        for (Serie serie : minhasSeries) {
@@ -54,12 +54,8 @@ public class OrdenacaoSet {
         for (Serie serie : minhasSeries3) {
             System.out.println(serie.getNome()+ " - " + serie.getGenero() + " - " + serie.getTempoEpisodio());
             }
-        
     }
-   
-    
 }
-
 
 class Serie implements Comparable <Serie>{
     private String nome;
