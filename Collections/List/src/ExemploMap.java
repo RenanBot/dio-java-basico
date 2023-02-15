@@ -120,10 +120,6 @@ public class ExemploMap {
 
         System.out.println("Confira de o conjunto está vazio: " + carrosPopulares.isEmpty());
 
-
-
-
     }
-
-    
+   
 }
