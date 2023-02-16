@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OrdenacaoMap",
+            "request": "launch",
+            "mainClass": "OrdenacaoMap",
+            "projectName": "List_3ebcf9ba"
+        },
+        {
+            "type": "java",
             "name": "Launch ExemploMap",
             "request": "launch",
             "mainClass": "ExemploMap",
