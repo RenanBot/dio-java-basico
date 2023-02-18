@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExercicioStremAPI",
+            "request": "launch",
+            "mainClass": "ExercicioStremAPI",
+            "projectName": "List_3ebcf9ba"
+        },
+        {
+            "type": "java",
             "name": "Launch RefatoracaoOrdenacaoMap",
             "request": "launch",
             "mainClass": "RefatoracaoOrdenacaoMap",

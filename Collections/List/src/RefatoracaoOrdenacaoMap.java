@@ -2,16 +2,14 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
-import java.util.function.Function;
 
 public class RefatoracaoOrdenacaoMap {
     
 /*Dadas as seguintes informações  de id e contato, crie um dicionário e
-ordene este dicionário exibindo (Nome id - Nome contato);
+ordene este dici    onário exibindo (Nome id - Nome contato);
 id = 1 - Contato = nome: Simba, numero: 2222;
 id = 4 - Contato = nome: Cami, numero: 5555;
 id = 3 - Contato = nome: Jon, numero: 1111;
