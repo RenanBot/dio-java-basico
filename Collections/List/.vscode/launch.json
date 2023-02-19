@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExerciciosStreamAPI2",
+            "request": "launch",
+            "mainClass": "ExerciciosStreamAPI2",
+            "projectName": "List_3ebcf9ba"
+        },
+        {
+            "type": "java",
             "name": "Launch ExercicioStremAPI",
             "request": "launch",
             "mainClass": "ExercicioStremAPI",
