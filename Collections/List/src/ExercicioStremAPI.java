@@ -10,7 +10,7 @@ public class ExercicioStremAPI {
             numerosAleatorios.add(1);
             numerosAleatorios.add(0);
             numerosAleatorios.add(4);
-            numerosAleatorios.add(1);
+            numerosAleatorios.add(1);  
             numerosAleatorios.add(2);
             numerosAleatorios.add(3);
             numerosAleatorios.add(9);
@@ -38,9 +38,18 @@ public class ExercicioStremAPI {
         System.out.println("Pegue os numeros pares e maiores do que 2 e coloque em uma lista: ");
 
         List<Integer> ListParesMaioresQue2 = numerosAleatorios.stream()
-        .filter(i ->(i %2 == 0 && i > 2)).collect(Collectors.toList());
+        .filter(i ->(i %2 == 0 && i > 2))
+        .collect(Collectors.toList());
          System.out.println(ListParesMaioresQue2);
-    
+
+
+         System.out.println("Mostre a média dos números: ");
+         numerosAleatorios.stream()
+         .average()
+         .ifPresent(System.out::println);
+
+
+
         }       
 
 }
